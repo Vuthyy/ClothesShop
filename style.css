@@ -1055,22 +1055,9 @@ footer .copyright {
     transition: 0.3s;
   }
 
-  /* #navbar #mobile .cart {
-    background: red;
-    color: white;
-    border-radius: 50%;
-    width: 14px;
-    height: 14px;
-    font-size: 9px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    position: absolute;
-    top: -3px;
-    right: 13px;
-    padding-top: 2px;
-  } */
+  #navbar .cart-icon span {
+    display: none;
+  }
 
   #navbar.active {
     right: 0px;
